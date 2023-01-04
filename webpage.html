@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width,initial-scale1.0">
+    <meta content="X-UA-Compatible" content="ie=edge">
+    <title>KALYAN SPORTS</title>
+
+    <link href="" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url("https://drcraigsinger.com/wp-content/uploads/2017/06/70254858_l.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            color: white;
+            font-family: 'Yeon Sung', 'cursive';
+
+
+
+        }
+
+        .left {
+            display: inline-block;
+
+            
+            position: absolute;
+            left: 30px;
+            top: 25 px;
+            text-align: center;
+
+        }
+
+        .left img {
+            width: 70px;
+            height: 50px;
+        }
+
+        .left div {
+            text-align: center;
+            line-height: 20px;
+            font-size: 20px;
+        }
+
+
+        .mid {
+            display: block;
+            width: 50%;
+            margin: 20px auto;
+
+        }
+
+        .right {
+            position: absolute;
+            right: 30px;
+            top: 30px;
+            display: inline-block;
+
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 20px;
+        }
+
+        .navbar li a {
+            color: white;
+            padding: 33px 23px;
+            text-decoration: none;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: grey;
+        }
+
+        .btn {
+            margin: 5% 5px;
+            background-color: black;
+            color: white;
+           
+            border-radius: 5px;
+            font-size: 17px;
+            cursor: pointer;
+            font-family: 'Yeon Sung', cursive;
+            background: rgba(0, 0, 0, 0.55);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+
+            border: 1px solid rgba(255, 255, 255, 0.18);
+        }
+
+        .btn:hover {
+            background-color: rgb(53, 50, 50);
+        }
+
+        .container {
+
+            margin: 20px auto;
+            padding: 75px;
+            width: 33%;
+            border-radius: 25px;
+            background: rgba(0, 0, 0, 0.55);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+
+            border: 1px solid rgba(255, 255, 255, 0.18);
+        }
+
+        .form-group input {
+            font-family: 'Yeon Sung', cursive;
+            text-align: center;
+            display: block;
+            width: 90%;
+            padding: 2%;
+            border: 2px solid black;
+            margin: 4%;
+            border-radius: 20px;
+            font-size: 100%;
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .container button {
+            display: block;
+            margin: 20px auto;
+            width: 110%;
+
+        }
+
+        #gender-btn {
+            text-align: center;
+            box-sizing:border-box;
+
+            
+            width: 95%;
+            margin: 5%;
+        }
+
+        #submitbtn {
+            width: 95%;
+            margin: 5%;
+
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+
+            <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScuQQdtK-V4vMuI1ZO9jK6OGAOU0tf4_elmg&usqp=CAU">
+            <div>YASH ACADEMY</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#"> SPORTS</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <button class="btn">Contact us</button>
+            <button class="btn">Email us</button>
+
+
+        </div>
+    </header>
+    <div class="container">
+        <h1> Goal for bright feature<br> KALYAN SPORTS ACADEMY </h1>
+        <form action="https://www.justdial.com/Bhuj/Schools-in-Madhapar/nct-10422444">
+            <div class="form-group">
+                <input type="text" name="Name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="quantity"></label>
+                <input type="number" id="quantity" name="quantity" min="10" max="20" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="number" id="quantity" name="quantity" min="6" max="12" placeholder="Enter your standard">
+            </div>
+            <div class="form-group">
+                <input type="text" name="school" placeholder="Enter your school name">
+            </div>
+            <div class="btn" id="gender-btn">
+                <input type="radio" value="male" name="Gender" placeholder="Enter your Gender">Male
+                <input style="margin:0% 0% 0% 7%" type="radio" value="female" name="Gender" placeholder="Enter your Gender">Female
+
+            </div>
+            <button class="btn" id="submitbtn">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
